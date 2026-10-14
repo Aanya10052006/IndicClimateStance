@@ -1,0 +1,59 @@
+{
+  "accuracy": 0.7424242424242424,
+  "macro_f1": 0.434247311827957,
+  "labels": [
+    "Against",
+    "Favour",
+    "None"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      29,
+      28
+    ],
+    [
+      0,
+      36,
+      167
+    ]
+  ],
+  "classification_report": {
+    "Against": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "Favour": {
+      "precision": 0.43283582089552236,
+      "recall": 0.5087719298245614,
+      "f1-score": 0.46774193548387094,
+      "support": 57.0
+    },
+    "None": {
+      "precision": 0.8477157360406091,
+      "recall": 0.8226600985221675,
+      "f1-score": 0.835,
+      "support": 203.0
+    },
+    "accuracy": 0.7424242424242424,
+    "macro avg": {
+      "precision": 0.42685051897871046,
+      "recall": 0.4438106761155763,
+      "f1-score": 0.434247311827957,
+      "support": 264.0
+    },
+    "weighted avg": {
+      "precision": 0.7452952129063956,
+      "recall": 0.7424242424242424,
+      "f1-score": 0.7430541300097752,
+      "support": 264.0
+    }
+  }
+}

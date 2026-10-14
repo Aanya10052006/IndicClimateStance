@@ -1,0 +1,18 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Dataset files: keep local until sharing permissions are confirmed
+data/raw/
+data/processed/
+data/final/
+
+# Trained model artifacts
+models/
+
+# Prediction-level files may contain source comments
+results/*_predictions.csv
+results/*_errors.csv
