@@ -1,9 +1,14 @@
+
 # Secrets and Python cache
 .env
+.env.*
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Virtual environments
 .venv/
+.venv-transformer/
 venv/
 
 # Keep datasets local until sharing permissions are confirmed
@@ -13,6 +18,10 @@ data/final/
 
 # Keep trained model artifacts local
 models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
 
 # Prediction and error files may contain source comments
 results/*_predictions.csv
