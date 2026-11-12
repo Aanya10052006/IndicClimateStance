@@ -1,0 +1,33 @@
+{
+    "Against": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+    },
+    "Favour": {
+        "precision": 0.5714285714285714,
+        "recall": 0.8,
+        "f1-score": 0.6666666666666666,
+        "support": 25.0
+    },
+    "None": {
+        "precision": 0.8809523809523809,
+        "recall": 0.7254901960784313,
+        "f1-score": 0.7956989247311828,
+        "support": 51.0
+    },
+    "accuracy": 0.7402597402597403,
+    "macro avg": {
+        "precision": 0.48412698412698413,
+        "recall": 0.5084967320261438,
+        "f1-score": 0.4874551971326165,
+        "support": 77.0
+    },
+    "weighted avg": {
+        "precision": 0.7690166975881262,
+        "recall": 0.7402597402597403,
+        "f1-score": 0.7434715821812595,
+        "support": 77.0
+    }
+}
