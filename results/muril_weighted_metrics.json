@@ -1,0 +1,60 @@
+{
+    "model": "google/muril-base-cased",
+    "experiment": "weighted",
+    "evaluation_split": "validation",
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "batch_size": 8,
+    "seed": 42,
+    "best_checkpoint": "/content/muril_weighted/checkpoint-76",
+    "best_epoch": 2,
+    "accuracy": 0.6753246753246753,
+    "precision_macro": 0.478494623655914,
+    "recall_macro": 0.4962091503267974,
+    "f1_macro": 0.45173479903813124,
+    "f1_micro": 0.6753246753246753,
+    "f1_weighted": 0.6788357640298555,
+    "classification_report": {
+        "Against": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+        },
+        "Favour": {
+            "precision": 0.5,
+            "recall": 0.92,
+            "f1-score": 0.647887323943662,
+            "support": 25.0
+        },
+        "None": {
+            "precision": 0.9354838709677419,
+            "recall": 0.5686274509803921,
+            "f1-score": 0.7073170731707317,
+            "support": 51.0
+        },
+        "accuracy": 0.6753246753246753,
+        "macro avg": {
+            "precision": 0.478494623655914,
+            "recall": 0.4962091503267974,
+            "f1-score": 0.45173479903813124,
+            "support": 77.0
+        },
+        "weighted avg": {
+            "precision": 0.7819438625890238,
+            "recall": 0.6753246753246753,
+            "f1-score": 0.6788357640298555,
+            "support": 77.0
+        }
+    },
+    "class_weights": {
+        "Against": 14.476190567016602,
+        "Favour": 1.0446735620498657,
+        "None": 0.5066666603088379
+    },
+    "predicted_distribution": {
+        "Against": 0,
+        "Favour": 46,
+        "None": 31
+    }
+}
