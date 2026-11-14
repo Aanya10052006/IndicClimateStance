@@ -17,3 +17,8 @@ models/
 # Prediction and error files may contain source comments
 results/*_predictions.csv
 results/*_errors.csv
+
+.venv-transformer/
+
+
+notebooks/*_backup.ipynb
