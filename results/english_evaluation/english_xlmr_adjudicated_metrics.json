@@ -1,0 +1,32 @@
+{
+    "model": "Standard XLM-RoBERTa",
+    "samples": 198,
+    "annotation_status": "Reviewed and adjudicated",
+    "accuracy": 0.6818181818181818,
+    "macro_f1": 0.32692070538907386,
+    "weighted_f1": 0.5869011984439287,
+    "correct": 135,
+    "incorrect": 63,
+    "labels": [
+        "Against",
+        "Favour",
+        "None"
+    ],
+    "confusion_matrix": [
+        [
+            0,
+            7,
+            20
+        ],
+        [
+            0,
+            4,
+            33
+        ],
+        [
+            0,
+            3,
+            131
+        ]
+    ]
+}

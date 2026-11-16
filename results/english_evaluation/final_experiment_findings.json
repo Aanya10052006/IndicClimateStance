@@ -1,0 +1,41 @@
+{
+    "project": "IndicClimateStance",
+    "task": "Multilingual climate stance detection",
+    "claim": "Climate change and global warming is a serious concern.",
+    "languages": {
+        "training_validation": [
+            "Hindi",
+            "Bengali"
+        ],
+        "cross_lingual_test": [
+            "English"
+        ]
+    },
+    "best_validation_model": {
+        "name": "Weighted XLM-RoBERTa",
+        "accuracy": 0.7792,
+        "macro_f1": 0.5175
+    },
+    "english_evaluation": {
+        "model": "Standard XLM-RoBERTa",
+        "samples": 198,
+        "accuracy": 0.681818,
+        "macro_f1": 0.326921,
+        "weighted_f1": 0.586901,
+        "annotation_status": "Reviewed/adjudicated single-annotator labels"
+    },
+    "key_findings": [
+        "Class weighting improved Macro-F1 for all three architectures on Hindi/Bengali validation.",
+        "Weighted XLM-RoBERTa achieved the highest validation Macro-F1.",
+        "Standard XLM-RoBERTa performed worse on the independent English test set than on Hindi/Bengali validation.",
+        "The English model failed to predict any Against examples.",
+        "English errors included missed climate denial and indirect expressions of concern."
+    ],
+    "limitations": [
+        "Small and imbalanced Hindi/Bengali validation dataset.",
+        "English test comments were collected from a single YouTube video.",
+        "English labels are not yet verified three-annotator consensus.",
+        "Hindi/Bengali validation and English test datasets differ in composition.",
+        "Weighted XLM-RoBERTa was not evaluated on the English test set."
+    ]
+}
